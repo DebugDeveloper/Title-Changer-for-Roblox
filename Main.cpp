@@ -1,7 +1,9 @@
+#define FindWindowA
+
 BOOL SetWindowTextA(
 HWND   hWnd,
 LPCSTR lpString);
 
 int main() {
-   SetWindowText(FindWindow, "Roblox", "Title");
+   SetWindowText(FindWindowA, "Roblox", "Title");
 }
